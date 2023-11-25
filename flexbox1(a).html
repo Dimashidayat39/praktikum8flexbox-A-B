@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <TITle>Code Flexbox (A)</TITle>
+    <style>
+        * {
+   margin: 0;
+   padding: 0;
+}
+
+header,
+footer {
+   height: 20vh;
+   background-color: deepskyblue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.content {
+   height: 60vh;
+   display: flex;
+}
+
+article {
+   background-color: blue;
+   flex-grow: 3;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+aside {
+   background-color: dodgerblue;
+   flex-grow: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+nav {
+   background-color: navy;
+   display: flex;
+   align-items: center;
+   float: left;
+   padding: 20px;
+   height: 611px;
+   width: 100px;
+}
+    </style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Layout Flexbox</title>
+   
+ 
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>Nav</nav>
+    </div>
+
+    <header>
+        header
+    </header>
+
+    <div class="content">
+        <article>
+            Article
+        </article>
+        <aside>
+            Aside
+        </aside>
+    </div>
+
+    <footer>
+        footer
+    </footer>
+
+</body>
+
+</html>

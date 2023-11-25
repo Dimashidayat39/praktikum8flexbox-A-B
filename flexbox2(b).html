@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Code flexbox (B)</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+       header {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(114, 81, 38);
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    max-width: 2000px;
+    margin: 10px;
+    border-radius: 10px;
+}
+       
+
+       main {
+        display: flex;
+       }
+
+       aside {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    background: burlywood;
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    max-width: 250px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+       }
+
+       article {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(202, 168, 73);
+    position: relative;
+    flex: 3;
+    margin: 10px;
+    max-width: 960px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+       }
+
+       img{
+        padding: 20px;
+        max-width: 25%;
+       }
+       footer {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(114, 81, 38);
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    max-width: 2000px;
+    margin: 10px;
+    border-radius: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>Header</header>
+        <main>
+            <aside>Aside</aside>
+            <article>
+                <img src="img/gambar1.jpg" alt="">
+                <img src="img/gambar1.jpg" alt="">
+                <img src="img/gambar1.jpg" alt="">
+            </article>
+        </main>
+        <footer>Footer</footer>
+    </div>
+
+</body>
+</html>
